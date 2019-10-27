@@ -1,0 +1,36 @@
+.button-container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.additem-button {
+  width: 140px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: #f5d372;
+  border: 1px solid #f5d372;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.categorybranch-button {
+  margin: 10px 0px;
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+
+  background-color: white;
+  border: 1px solid #f5d372;
+  color: #f5d372;
+  border-radius: 10px;
+}
+
+.transactions-month {
+  margin-top: 10px;
+  font-size: 18px;
+}

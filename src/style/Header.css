@@ -1,0 +1,110 @@
+.header {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 99px;
+  left: 0px;
+  top: 0px;
+
+  background: #f5d372;
+}
+
+.logo {
+  position: absolute;
+  width: 159px;
+  height: 80px;
+  left: 5%;
+  top: 0px;
+
+  background: url(../imgs/logo.png);
+  background-repeat: no-repeat;
+}
+
+.wishlist {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 82%;
+  top: 23px;
+
+  background: url(../imgs/wishlist-empty.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 85%;
+  top: 23px;
+
+  background: url(../imgs/cart.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login-button {
+  position: absolute;
+  width: 90px;
+  height: 48px;
+  left: 90%;
+  top: 23px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: black;
+
+  background: orange;
+}
+
+.register-button {
+  position: absolute;
+  width: 100px;
+  height: 48px;
+  left: 84%;
+  top: 23px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: black;
+
+  background: orange;
+}
+
+.user-name {
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  left: 43.5%;
+  top: 23px;
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+
+  background: #f5d372;
+}
+
+/* login modal/////////////////////////////////////////////////// */
+.modal {
+  width: 500px;
+  border-radius: 10px;
+  margin: 25vh auto;
+  outline: none;
+  background-color: azure;
+}

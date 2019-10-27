@@ -1,0 +1,27 @@
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+
+  border-top: 1px solid white;
+
+  background: #f5d372;
+}
+
+.pt-text {
+  position: absolute;
+  /* width: 431px; */
+  height: 43px;
+  /* left: 85%; */
+  top: 20px;
+  right: 20px;
+  /* bottom: 50%; */
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #000000;
+}

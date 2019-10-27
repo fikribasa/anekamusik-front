@@ -1,0 +1,109 @@
+.title {
+  position: absolute;
+
+  font-size: 50px;
+
+  left: auto;
+  top: 120px;
+}
+
+.cart-table {
+  /* border: 1px solid #F5D372; */
+  border: none;
+}
+
+.cart-table tr {
+  border-bottom: 1px solid #f5d372;
+}
+
+.cart-table,
+tr,
+td {
+  position: relative;
+  border-collapse: collapse;
+  font-size: 25px;
+}
+
+.cart-table .itembranch {
+  padding: 15px;
+  margin-right: 100px;
+}
+
+.cart-table .branch-label {
+  font-size: 15px;
+}
+
+.cart-table .quantity {
+  padding: 10px 20px;
+  font-size: 40px;
+}
+
+.minus-button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: url(../imgs/minus.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.plus-button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  background: url(../imgs/plus.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cart-table .pricequantity {
+  padding-right: 30px;
+}
+
+.checkout-button {
+  margin-top: 0px;
+  margin-left: 100px;
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
+
+  background-color: white;
+
+  color: black;
+  border-radius: 10px;
+}
+
+.checkout-button:hover {
+  background-color: #f5d372;
+}
+
+.printreceipt-button {
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
+
+  background-color: #f5d372;
+
+  color: black;
+  border-radius: 10px;
+}
+
+.totalprice {
+  position: relative;
+  left: 0px;
+  padding: 15px;
+  padding-left: 0px;
+}
+
+.checkoutbutton-container {
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+.receipt-container {
+  padding: 30px;
+}

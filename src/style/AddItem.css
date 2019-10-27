@@ -1,0 +1,268 @@
+input,
+textarea {
+  padding-left: 10px;
+}
+
+.nameadd-label {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 58px;
+  top: 158px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.nameadd-input {
+  position: absolute;
+  width: 732px;
+  height: 62px;
+  left: 280px;
+  top: 148px;
+
+  font-size: 25px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.cathegory-label {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 58px;
+  top: 244px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.cathegory-input {
+  position: absolute;
+  width: 280px;
+  height: 62px;
+  left: 280px;
+  top: 234px;
+
+  font-size: 25px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.labelbranch {
+  position: absolute;
+  width: 120px;
+  height: 47px;
+  left: 58px;
+  top: 590px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.quantity-label {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 280px;
+  top: 590px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.price-label {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 400px;
+  top: 590px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.image-label {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 58px;
+  top: 333px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.image-input {
+  position: absolute;
+  width: 732px;
+  height: 62px;
+  left: 280px;
+  top: 323px;
+
+  font-size: 25px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.description-label {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 58px;
+  top: 411px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.description-input {
+  position: absolute;
+  width: 732px;
+  height: 150px;
+  left: 280px;
+  top: 411px;
+
+  font-size: 25px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.add-button {
+  position: absolute;
+  width: 144px;
+  height: 64px;
+  left: 1240px;
+  top: 204px;
+
+  background: #e28935;
+  border-radius: 10px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.add-button-submit {
+  position: absolute;
+  width: 164px;
+  height: 65px;
+  left: 848px;
+  top: 804px;
+
+  background: #e28935;
+  border-radius: 10px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.allbranch-container {
+  position: absolute;
+  width: 500px;
+  height: 72px;
+  left: 58px;
+  top: 650px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.branch-container {
+  position: relative;
+  width: 600px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.quantityprice-container {
+  position: relative;
+  width: 600px;
+  height: 72px;
+  left: 100px;
+  top: -50px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.quantity-input {
+  position: relative;
+  width: 100px;
+  height: 62px;
+  left: 20%;
+  top: 0px;
+
+  font-size: 25px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.price-input {
+  position: relative;
+  width: 200px;
+  height: 62px;
+  left: 155px;
+  top: 0px;
+
+  font-size: 25px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
